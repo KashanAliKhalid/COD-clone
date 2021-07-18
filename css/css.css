@@ -1,0 +1,1251 @@
+@charset "utf-8";
+
+/* CSS Document */
+.hidden
+{
+display:none;	
+}
+
+.visuallyhidden
+{
+opacity:0;
+transition:linear 1s;
+}
+
+
+#dvLoading
+{
+   background-color:#131313;
+   height: 100%;
+   width: 100%;
+   position: fixed;
+   z-index: 99999 !important;
+   background-size:cover;
+   top:0;
+}
+.loader_img
+{
+width: 25%;
+    height: 25%;
+	psoition:fixed;
+	resize:both;
+	margin-top:15%;
+	margin-left:35%;	
+}
+
+.dropdown
+{
+width:100%;
+background-color:#2D2D2D;
+height:284px;
+position:absolute;
+display:none;
+transition-property:all;
+transition-duration:2s;
+padding-top:30px;
+z-index:1;
+}
+.topbar
+{
+width:100%;
+height:50px;
+background-color:#2d2d2d;	
+top:0;
+margin-top:-15px;
+}
+
+.list ul li 
+{
+text-decoration:none;
+display:inline;
+font-family:Verdana, Geneva, sans-serif;
+font-size:12px;;
+line-height:16.8px;
+color:#707070;
+font-weight:bold;
+float:left;	
+}
+
+.box_item1:hover
+{
+font-size:0;	
+cursor:pointer;
+	
+}
+.box_item1:hover:after{
+	content:attr(data-hover);
+	text-decoration:none; 
+font-family:Verdana, Geneva, sans-serif;
+font-size:12px;;
+line-height:16.8px;
+color:white;
+float:left;
+font-weight:bold;
+ margin-top:px; 
+ margin-bottom:;
+}
+	
+.Fixbar
+{
+width:100%;
+height:73px;
+background-color:#000000;
+position:fixed;
+float:left;
+position:-webkit-sticky;
+position: sticky;
+top:0;
+margin-top:-8px;
+opacity:0.9;
+}
+.dropdown-content
+{
+color:#9B9B9B;
+font-weight:700;
+font-size:13px;
+line-height:45px;
+margin-left:100px;
+font-family:Arial, Helvetica, sans-serif;	
+}
+
+.dropdown-content:hover
+{
+color:white;
+font-weight:700;
+font-size:13px;
+line-height:45px;
+margin-left:100px;
+font-family:Arial, Helvetica, sans-serif;	
+
+}
+ .dropdown-image
+ {
+	 width:176px;
+	 float:left;
+	 height:176px;	 
+ }
+ 
+ .image-container
+ {
+width:176px;
+height:20px;
+float:left;	
+margin-left:50px; 
+	 
+ }
+ 
+ .dropdown_image_text
+ {	
+  color:#9B9B9B;
+font-weight:700;
+font-size:13px;
+float:left;
+margin-left:px;
+font-family:Arial, Helvetica, sans-serif;
+margin-top:10px;
+ }
+ 
+ .dropdown_image_text:hover
+ {
+color:white;	 
+ }
+.secondbarnav ul li 
+{	
+font-size:12px;
+font-weight:700;
+line-height:12px;
+font-family:Verdana, Geneva, sans-serif;
+color:#909090;
+tex-decoration:none;
+display:inline;
+float:left;
+margin-left:28px;
+margin-top:18px;
+}
+
+
+.button
+{
+Background-color:#9f912a;
+height:40px;
+width:136px;
+margin-left:600px;
+margin-top:;
+border:none;
+float:left;	
+cursor:pointer;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:800;
+color:white;
+}
+
+.button:hover
+{
+Background-color:white;
+height:40px;
+width:136px;
+margin-left:600px;
+margin-top:;
+border:none;
+float:left;	
+cursor:pointer;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:800;
+color:black;
+-webkit-transition:all.3s ease-in;
+}
+
+
+.Video1
+{
+background-image:url(../Images/video2.jpg);
+background-size:100%;
+background-height:100%;
+background-repeat:no-repeat;
+height:630px;
+margin-top:70px;
+
+
+	
+}
+
+.Video2
+{
+background-image:url(../Images/video1.jpg);
+background-size:100%;
+background-height:100%;
+background-repeat:no-repeat;
+height:630px;
+margin-top:70px;
+transition:2s all ease-in;
+transition-delay:1s;
+
+}
+.do
+{
+Color:white;
+font-family:Arial, Helvetica, sans-serif;
+font-size:38px;
+font-weight:bold;
+text-decoration:none;
+margin-left:center;
+margin-top:100px;	
+margin-left:570px;
+letter-spacing:3px;
+text-shadow:3px 3px #000000;
+}
+.Playbutton
+{
+margin:center;
+width:auto;
+margin-top:265px;	
+	
+}
+
+.Three
+{
+height:500px;
+width:auto;
+}
+
+.Buydiv
+{
+	height:99px; 
+	width:556px;
+	border:thick;
+	border-top:5px;
+	border-color:#FFF;
+	background-color:black;
+	margin-top:7px;
+	float:left;	
+	
+}
+
+.Buynowbutton
+{
+Background-color:#9f912a;
+height:40px;
+width:156px;
+margin-left:376px;
+margin-top:35px;
+border:none;
+float:left;	
+cursor:pointer;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:800;
+color:white;
+-webkit-transition:all.3s ease-out;	
+}
+
+.Buynowbutton:Hover
+{
+Background-color:white;
+height:40px;
+width:156px;
+margin-left:376px;
+margin-top:30px;
+border:none;
+float:left;	
+cursor:pointer;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:800;
+color:black;
+-webkit-transition:all.3s ease-in;
+-webkit-transition:all.3s ease-out;	
+	
+}
+
+.SubscribeDiv
+{
+height:99px; 
+	width:956px;
+	border:thick;
+	border-top:5px;
+	border-color:#FFF;
+	background-color:black;
+	margin-top:7px;
+	float:left;
+	margin-left:6.8px;		
+}
+
+.Intel
+{
+color:white;
+font-family:Verdana, Geneva, sans-serif;
+font-size:24px;
+font-weight:900;
+line-height:24px;
+float:left;
+margin-left:34px;
+margin-top:40px;	
+	
+}
+
+.overview_img
+{
+	height:479px;
+	width:852px;
+    
+	margin-left:116px;
+	margin-top:43px;
+	border-bottom:8px solid #9f912a;
+	
+}
+.fading_line{ 
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#9f912a));
+	float:left;
+	margin-left:15px;
+	transform:rotate(90);
+	
+
+}
+
+.Overview_div
+{
+width:1000px;
+height:755px;
+float:left;	
+}
+
+.overview
+{
+width:866px;
+height:747px;	
+	
+}
+
+.Overvew_heading
+{
+	font-size:36px;
+	font-weight:Bold;
+	font-family:Verdana, Geneva, sans-serif;
+	margin-left:154px;
+	margin-top:38px;
+	float:left;
+	
+}
+
+
+.secondvideo
+{
+width:354px;
+height:566px;
+margin-left:54px;
+float:left;
+margin-top:51px;	
+	
+}
+
+.onlyvideo
+{
+background-image:url(../Images/ceratien.jpg);
+width:354px;
+height:204px;
+background-size:cover;
+border-bottom:8px solid #9f912a;
+cursor:pointer;
+
+}
+
+.Save
+{
+font-size:34px;
+font-weight:700;
+font-family:Verdana, Geneva, sans-serif;	
+line-height:45px;
+margin-top:25px;
+float:left;
+}
+
+.dlc
+{
+margin-top:20px;
+font-family:Arial, Helvetica, sans-serif;
+font-size::12px;	
+float:left;
+	margin-left:20px;
+}
+
+.Buynow
+{
+Background-color:black;
+height:35px;
+width:176px;
+margin-left:36px;
+margin-top:25px;
+border:none;
+float:left;	
+cursor:pointer;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:800;
+color:white;
+-webkit-transition:all.3s ease-out;	
+}
+
+.buynow:hover
+{
+Background-color:#9f912a;
+height:35px;
+width:176px;
+margin-left:36px;
+margin-top:25px;
+border:none;
+float:left;	
+cursor:pointer;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:800;
+color:black;
+-webkit-transition:all.3s ease-out;		
+	
+
+}
+
+
+
+.definitive
+{
+background-image:url(../Images/Definitive.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+height:633px;
+width:100%;
+margin-top:1000px;	
+border-top:8px solid #9f912a;
+
+}
+
+.star
+{
+width:36px;
+height:36px;	
+margin-top:51px;
+margin-left:116px;
+}
+
+
+.line
+{
+color:white;
+margin-left:116px;
+	
+}
+
+.thin
+{
+font-family:Verdana, Geneva, sans-serif;
+font-size:54px;
+font-weight:400;
+margin-left:;
+color:white;
+padding:0;	
+}
+
+.thick
+{
+font-family:Verdana, Geneva, sans-serif;
+font-size:54px;
+font-weight:700;
+margin-left:20px;
+color:white;	
+padding:0;
+}
+
+.text
+{
+font-size:14px;
+font-weight:400;
+font-family:Arial, Helvetica, sans-serif;
+color:white;
+margin-left:116px;
+line-height:25px;	
+	
+}
+
+.buttons
+{
+Background-color:#9f912a;
+height:35px;
+width:176px;
+margin-left:116px;
+/*margin-top:25px;*/
+border:none;
+float:left;	
+cursor:pointer;
+font-size:13px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+color:white;
+-webkit-transition:all.3s ease-out;		
+	
+}
+
+.buttons:hover
+{
+	Background-color:white;
+height:35px;
+width:176px;
+margin-left:116px;
+/*margin-top:25px;*/
+border:none;
+float:left;	
+cursor:pointer;
+font-size:13px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+color:black;
+-webkit-transition:all.3s ease-out;
+}
+
+.boots
+{
+background-image:url(../Images/boots.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+height:633px;
+width:100%;
+margin-top:px;	
+border-top:8px solid #9f912a;
+}
+
+
+.starright
+{
+	width:36px;
+height:36px;	
+margin-top:51px;
+position:
+
+}
+
+.lineright
+{
+color:white;
+
+margin-top:51px;	
+}
+
+.thinright
+{
+font-family:Verdana, Geneva, sans-serif;
+font-size:54px;
+font-weight:400;
+color:white;
+padding:0;
+}
+
+.thickright
+{
+font-family:Verdana, Geneva, sans-serif;
+font-size:54px;
+font-weight:700;
+color:white;	
+padding:0;
+}
+
+.textright
+{
+font-size:14px;
+font-weight:400;
+font-family:Arial, Helvetica, sans-serif;
+color:white;
+line-height:25px;	
+	
+}
+
+.buttonsright
+{
+Background-color:#9f912a;
+height:35px;
+width:176px;
+/*margin-top:25px;*/
+border:none;
+cursor:pointer;
+font-size:13px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+color:white;
+-webkit-transition:all.3s ease-out;		
+	
+}
+
+.buttonsright:hover
+{
+	Background-color:white;
+height:35px;
+width:176px;
+/*margin-top:25px;*/
+border:none;
+	
+cursor:pointer;
+font-size:13px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+color:black;
+-webkit-transition:all.3s ease-out;
+}
+
+
+.octane
+{
+background-image:url(../Images/Octane.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+height:633px;
+width:100%;
+margin-top:;	
+border-top:8px solid #9f912a;
+}
+.deploydiv
+{
+height:700px;
+width:1500px;
+	
+}
+
+.deploy_img
+{
+width:904px;
+height:507px;
+border-bottom:8px solid #9f912a;
+margin-top:40px;
+margin-left:113px;
+object-fit:cover;
+}
+
+.deploy_text
+{font-family:Verdana, Geneva, sans-serif;
+font-size:34px;
+font-weight:700;
+margin-left:130px;
+margin-top:40px;
+float:left;
+	
+}
+
+.Updates
+{
+color:black; font-size:18px; font-family:Verdana, Geneva, sans-serif; font-weight:700; margin-top:20px; float:left; text-decoration:underline;	
+	
+
+}
+
+.dates
+{
+font-size:12px;
+color:#666;
+margin-left:110px;
+font-weight:700;
+margin-top:25px;
+float:left;	
+font-family:Verdana, Geneva, sans-serif;
+}
+
+.updates_text
+{
+	
+font-family:Arial, Helvetica, sans-serif;
+font-size:20px;
+font-weight:400px;
+line-height:30px;
+	
+}
+
+
+.update_button
+{
+	background-color:transparent;
+width:160px;
+height:44px;
+border:1.5px solid #000;
+color:black;
+font-size:12px;
+font-weight:700;
+font-family:Verdana, Geneva, sans-serif;
+cursor:pointer;
+-webkit-transition:all.3s ease-out;
+}
+
+
+.update_button:hover
+{
+background-color:black;
+width:160px;
+height:44px;
+border:1.5px solid #000;
+color:white;
+font-size:12px;
+font-weight:700;
+font-family:Verdana, Geneva, sans-serif;
+cursor:pointer;	
+	-webkit-transition:all.3s ease-in;
+}
+
+
+
+.firstvideo
+{
+width:435px;
+height:500px;
+float:left;
+margin-left:114px;
+margin-top:90px;	
+	
+}
+
+.firstvideoimg
+{
+	background-image:url(../Images/Firstvideo.jpg)
+	background-size:cover;
+	height:244px;
+	width:434px;
+	border-bottom:8px solid #9f912a;
+	
+	
+}
+
+.videotext
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:34px;
+	font-weight:700;
+	margin-left:20px;
+	margin-top:30px;
+	color:black;
+	float:left;
+	
+}
+
+.firstvideo2
+{
+width:435px;
+height:500px;
+float:left;
+margin-left:44px;
+margin-top:90px;	
+	
+}
+
+.firstvideoimg2
+{
+	background-image:url(../Images/secondvideo.jpg);
+	background-size:cover;
+	height:244px;
+	width:434px;
+	border-bottom:8px solid #9f912a;
+	
+	
+}
+
+.sacrifice
+{
+background-image:url(../Images/sacrifice.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+height:633px;
+width:100%;
+margin-top:50px;		
+}
+
+.banner1
+{
+width:1348px;
+height:228px;
+margin-top:31px;
+margin-left:86px;	
+}
+
+.seasonpass
+{
+width:1348px;
+height:569px;
+margin-top:60px;
+margin-left:84px;
+background-color:#262626;	
+	
+}
+
+.form
+{
+width:361px;
+height:553px;
+margin-left:32px;
+background-color:#FFFFFF;
+	float:left;
+}
+
+.label1
+{
+font-size:14px;
+font-weight:700;
+font-family:Verdana, Geneva, sans-serif;	
+
+margin-top:35px;
+margin-left:33px;
+float:left;
+}
+
+.label2
+{
+font-size:14px;
+font-weight:500px;
+font-family:Verdana, Geneva, sans-serif;
+margin-top:35px;
+float:left;	
+	
+}
+
+.select
+{
+background-color:white;
+width:300px;
+height:39px;
+margin-left:33px;
+float:left;
+margin-top:20px;	
+	
+}
+.select option
+{
+color:#9B9BB5;
+border-bottom: 2px solid #9B9BB5;	
+font-size:14px;
+font-weight:700px;
+font-family:Verdana, Geneva, sans-serif;
+line-height:12px;
+padding-left:30px;
+margin-top:30px;
+float:left;
+
+}
+
+.select option:hover
+{
+color:#000;
+border-bottom: 2px solid #9B9BB5;	
+font-size:14px;
+font-weight:700px;
+font-family:Verdana, Geneva, sans-serif;
+line-height:12px;
+padding-left:30px;
+}
+
+
+.seasonpassbutton
+{
+Background-color:#9f912a;
+height:40px;
+width:236px;
+margin-left:600px;
+margin-top:;
+border:none;
+float:left;	
+cursor:pointer;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:800;
+color:white;
+}
+
+.seasonpassbutton:hover
+{
+Background-color:black;
+height:40px;
+width:236px;
+margin-left:600px;
+margin-top:;
+border:none;
+float:left;	
+cursor:pointer;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:800;
+color:white;
+-webkit-transition:all.3s ease-in;
+}
+
+.seasonpasstext
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:400;
+line-height:24px;
+color:white;
+margin-top:20px;
+float:left;
+margin-left:10px;	
+	
+}
+
+.lastdiv
+{
+width:1360px;
+height:422px;
+background-color:white;
+float:left;	
+margin-left:85px;
+margin-top:39px;
+}
+
+.lastsubdiv
+{
+width:604px;
+height:368px;
+color:A4A4A4;
+font-family:Verdana, Geneva, sans-serif;
+float:left;
+font-size:14px;
+margin-top:31px;
+margin-left:30px;
+
+	
+	
+}
+
+.lastlink
+{
+text-decoration:none;
+color:	A4A4A4;
+}
+
+.lastlink:hover
+{
+	color:black;
+	
+	
+}
+
+.logos
+{
+height:383px;
+width:453px;	
+	float:left;
+	margin-left:100px;
+	margin-top:32px;
+}
+
+
+
+.z_firstdiv
+{
+width:1219px;
+height:878px;
+background-image:url(../Images/zombies.jpg);
+background-height:224px;
+width:100%;
+background-size:;
+background-repeat:no-repeat;
+margin-top:73px;	
+	
+}
+.nazi
+{
+width:470px;
+height:362px;
+float:left;
+margin-left:180px;
+margin-top:55px;
+}
+
+.naziimage
+{
+width:447px;
+height:254px;
+
+}
+
+.nazitext
+{
+font-size:14px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:400;
+line-height:25px;
+color:white;	
+}
+
+.play
+{
+width:553px;
+height:434px;
+cursor:pointer;
+margin-left:200px;
+float:left;
+margin-top:10px;	
+}
+
+.four
+{
+width:5919px;
+height:158px;
+margin-top:150px;
+float:left;	
+	
+}
+
+.foursub
+{
+height:154px;
+width:296px;
+float:left;
+border:2px solid #999;
+	-webkit-filter: brightness(50%);
+	
+}
+
+.foursub:hover
+{
+	height:154px;
+width:296px;
+float:left;
+border:2px solid #999;
+-webkit-filter: brightness(100%);
+}
+
+
+.mission
+{
+background-image:url(../Images/Mission.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+height:540px;
+width:1291px;;
+margin-top:50px;	
+border-top:8px solid #9f912a;
+margin-left:114px;
+}
+
+
+.ww2_Z
+{
+	width:1288px;
+	height:119px;
+	margin-left:114px;
+	margin-top:58px;
+	border-top:8px solid #9f912a;
+	
+}
+
+.ww2_text
+{
+font-family:Verdana, Geneva, sans-serif;
+font-size:34px;
+font-weight:700;
+float:left;
+margin-left:28px;
+margin-top:34px;	
+}
+
+.ww2_text2
+{
+font-family:Verdana, Geneva, sans-serif;
+font-size:13.5px;
+font-weight:400;
+float:left;
+width:806px;
+height:88px;
+margin-left:142px;
+margin-top:34px;
+line-height:20px;	
+	
+}
+
+
+.gallery
+{
+margin-left:114px;
+width:1493px;
+height:855px;	
+	
+}
+
+.gallerypicture
+{
+width: 414px;
+height:412px;
+float:left;
+margin-left:20px;
+margin-top:20px;
+overflow:hidden;
+
+}
+
+.gallerypicture img:hover
+{
+	width:100%;
+	height:100%;
+	
+}
+
+
+.selectEdition
+{
+width:1509px;
+height:880px;
+margin-top:50px;
+	
+}
+
+.EditionTop
+{
+FLoat:left;
+width:1509px;
+height:294px;
+Font-size:34px;
+font-family:Verdana, Geneva, sans-serif;
+font-weight:700;
+}
+
+.EditionText
+{
+width:206px;
+height:157px;
+margin-left:114px;
+Font-size:38px;
+font-family:Verdana, Geneva, sans-serif;
+font-weight:700;
+Color:black;
+float:left;
+}
+
+.Get_images
+{
+float:left;
+margin-left:54px;
+width:200px;
+height:237px;
+	
+}
+
+
+.game_name
+{
+	width:1509px;
+	height:128px;
+	
+}
+
+.names
+{
+width:205px;
+height:152px;
+margin-left:52px;
+font-size:18px;
+font-family:Verdana, Geneva, sans-serif;
+font-weight:700;
+float:left;
+text-align:center;	
+}
+
+.names span
+
+{
+font-size:18px;
+font-family:Verdana, Geneva, sans-serif;
+font-weight:700;	
+}
+
+
+.getgame
+{
+Background-color:#9f912a;
+height:40px;
+width:204px;
+margin-left:10px;
+margin-top:15px;
+border:none;
+float:left;	
+cursor:pointer;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:800;
+color:white;
+}
+
+.getgame:hover
+{
+Background-color:white;
+height:40px;
+margin-left:10px;
+margin-top:15px;
+border:1px solid #9f912a ;
+float:left;	
+cursor:pointer;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:800;
+color:black;
+-webkit-transition:all.3s ease-in;
+}
+
+
+.basegame
+{
+width:273px;
+height:410px;
+border-top:6px solid black;
+float:left;
+margin-left:116px;
+	
+	
+}
+
+
+
+.check
+{
+width:208px;
+height:437px;
+float:left;
+margin-left:49px;
+margin-top:-4px;	
+}
